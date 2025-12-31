@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Phan Lê Quốc An</title>
+    <style>
+        * {
+            box-sizing: border-box; /* Giúp tính toán kích thước khung chính xác hơn */
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif; /* Font hiện đại hơn */
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 850px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border: 4px solid #667eea;
+        }
+
+        h1 {
+            text-align: center;
+            color: #764ba2;
+            font-size: 2em;
+        }
+
+        h2 {
+            color: #667eea;
+            border-left: 6px solid #667eea;
+            padding-left: 10px;
+            margin-top: 25px;
+        }
+
+        img {
+            display: block;
+            margin: 25px auto;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #764ba2;
+            object-fit: cover;
+            transition: transform 0.3s ease; /* Hiệu ứng khi rê chuột */
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .info {
+            background: #f3f0ff;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 6px solid #764ba2;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+
+        .highlight {
+            color: #764ba2;
+            font-weight: bold;
+        }
+
+        /* Responsive cho di động */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🌟 Xin chào! Mình là <span class="highlight">Phan Lê Quốc An</span></h1>
+
+    <img src="https://files.catbox.moe/e1w8bd.jpg" alt="Ảnh chân dung" class="profile-img">
+
+    <div class="info">
+        <p>
+            Mình là học sinh lớp 12A3 của trường <strong>THPT Nguyễn Trân</strong> và mình có niềm đam mê lớn với <span class="highlight">lập trình web</span>. 
+            Hiện tại mình đang bắt đầu hành trình với HTML & CSS 🚀
+        </p>
+    </div>
+
+    <h2>🎯 Sở thích</h2>
+    <ul>
+        <li><strong>Lập trình & Công nghệ:</strong> Luôn tìm tòi những thứ mới mẻ.</li>
+        <li><strong>Âm nhạc:</strong> Giúp mình thư giãn sau giờ học.</li>
+        <li><strong>Bóng đá:</strong> Môn thể thao yêu thích mỗi cuối tuần.</li>
+        <li><strong>Khám phá:</strong> Tìm kiếm những kiến thức thú vị.</li>
+    </ul>
+
+    <h2>📬 Thông tin liên hệ</h2>
+    <p>📧 Email: <a href="mailto:aphanlequoc@gmail.com" style="color: #667eea; text-decoration: none;">aphanlequoc@gmail.com</a></p>
+
+    <div class="footer">
+        © 2025 | Phan Lê Quốc An - Portfolio cá nhân
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Nguyễn Thúy An</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .cv-container {
+            width: 800px;
+			min-height: 750px;
+            display: flex;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        /* Phần bên trái - Màu xanh đậm */
+        .sidebar {
+            width: 35%;
+            background-color: #324e7b;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 210px;
+            height: 210px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+
+        .contact-section {
+            width: 100%;
+            padding-left: 20px;
+        }
+
+        .contact-section h3 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        .info-item span {
+            margin-right: 20px;
+            font-size: 1.2rem;
+			font-family: serif;
+        }
+
+        /* Phần bên phải - Màu trắng */
+        .main-content {
+            width: 65%;
+            padding: 60px 40px;
+        }
+
+        .name {
+            font-size: 2rem;
+            color: #324e7b;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .job-title {
+            color: #64b5f6;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            margin-top: 10px;
+            margin-bottom: 50px;
+            border-top: 2px solid #ccc;
+            padding-top: 15px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .objective-title {
+            color: #64b5f6;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .objective-text {
+            color: #444;
+            line-height: 1.6;
+            text-align: justify;
+			font-family: abadi;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <div class="sidebar">
+            <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/594345868_122151274172647747_3710454957862443879_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FS2Skes1j4IQ7kNvwEP8y33&_nc_oc=AdmU7aJsVee8pP2isJd6sNfEZZgHMKkymA8lwSykNBqBUx9MlXue3PurAVmKGESNDo_kHBTh74yNTm7O8LqKrfOr&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=z9-_iwDMGwRiEne2Algi3g&oh=00_AfmrHN7GzN84qPj9Dr7dRg6G6GOKYgGNZ35uuZZ-MZD4Mg&oe=69595B35" alt="Avatar" class="profile-img">
+            
+            <div class="contact-section">
+                <h3>Liên hệ bản thân</h3>
+                <div class="info-item">
+                    <span>Lớp: 12A3</span>
+				</div>
+                <div class="info-item">
+                    <span>SĐT: 0355525367</span>
+				</div>
+                <div class="info-item">
+                    <span>Gmail: anthuy.nguyen2502@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1 class="name">Giới thiệu bản thân</h1>
+            <div class="job-title">THPT Nguyễn Trân</div>
+            
+            <div class="objective-section">
+                <div class="objective-title">Giới thiệu chi tiết:</div>
+				<h3 class="objective-text">Họ và tên: Nguyễn Thúy An</h3>
+				<h3 class="objective-text">Sinh: 25/02/2008</h3>
+				<h3 class="objective-text">Địa chỉ: Xóm 2, Hội An, Hoài Châu, Bình Định</h3>
+				<h3 class="objective-text">Chiều cao: 1m60</h3>
+				<h3 class="objective-text">Cân nặng: 47kg</h3>
+				<h3 class="objective-text">Sở thích: du lịch, nghe nhạc, xem phim</h3>
+				<p class="objective-text"><a href ="https://www.facebook.com/nguyen.thuy.an.34342"> Trang cá nhân Facebook: </a>
+	            <h3 class="objective-text">Lời ngỏ: Mình là thành viên của nhóm 6, dưới đây là thông tin về một số thành viên của nhóm mình. Nhấn vào link để xem chi tiết.</h3>
+				<a href="file:///C:/Users/HP/Downloads/nhom6.html">Xem thành viên</a>
+				<a href ="https://www.facebook.com/nguyen.thuy.an.34342"></a>
+            </p> 
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
